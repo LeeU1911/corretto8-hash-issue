@@ -5,7 +5,7 @@ import java.security.SecureRandom;
 import java.security.spec.InvalidKeySpecException;
 import java.util.Arrays;
 
-class Scratch {
+class HashTest {
     public static void main(String[] args) {
         char[] password = "testString123".toCharArray();
         byte[] salt = new byte[16];
